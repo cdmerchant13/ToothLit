@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- This enables the App Sandbox, a requirement for App Store apps -->
+    <key>com.apple.security.app-sandbox</key>
+    <true/>
+    <!-- This links the extension to its parent application -->
+    <key>com.apple.developer.parent-application-identifiers</key>
+    <array>
+        <string>$(AppIdentifierPrefix)com.cmerchant.ToothLit</string>
+    </array>
+    <!-- This adds the App Group capability -->
+    <key>com.apple.security.application-groups</key>
+    <array>
+        <string>group.com.cmerchant.ToothLit</string>
+    </array>
+</dict>
+</plist>
